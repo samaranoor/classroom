@@ -1,0 +1,37 @@
+/* Add this CSS to your project's styles.css or a dedicated CSS file */
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    width: 0;
+    position: absolute;
+  }
+  
+  .custom-file-input::before {
+    content: 'Browse';
+    display: inline-block;
+    background: success; /* Bootstrap color */
+    color: rgb(10, 9, 9);
+    border: 1px solid #1c6a3a;
+    border-radius: 5px;
+    padding: 6px 12px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  .custom-file-input:hover::before {
+    background-color: #8fd8b0; /* Darker shade on hover */
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .list-group-item:hover {
+    background-color: #8fd8b0;
+  }
+  

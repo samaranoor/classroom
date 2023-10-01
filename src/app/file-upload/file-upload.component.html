@@ -1,0 +1,13 @@
+<div class="container mt-4">
+  <h1 class="mb-4">File Upload</h1>
+
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="customFile" (change)="onFileSelected($event)" accept=".pdf, .doc, .docx">
+    <label class="custom-file-label" for="customFile">Choose file</label>
+  </div>
+
+  <h2 class="mt-4">Uploaded Files</h2>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let file of uploadedFiles">{{ file.name }}</li>
+  </ul>
+</div>

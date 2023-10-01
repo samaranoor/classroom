@@ -1,0 +1,18 @@
+/* Add this CSS to your project's styles.css or a dedicated CSS file */
+.container {
+    background-color: #d1f3e6;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .list-group-item {
+    background-color: #46b676;
+    margin-top: 5px;
+  }
+  
+  /* You can add more custom CSS styles as needed */
+  
